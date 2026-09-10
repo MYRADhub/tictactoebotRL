@@ -133,7 +133,7 @@ class State:
                         self.reset()
                         break
 
-        p1.savePolicy()
+        self.p1.savePolicy()
 
     # play with human
     def play2(self):
